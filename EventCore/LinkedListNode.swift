@@ -3,6 +3,8 @@
 //  EventCore
 //
 
+import Foundation
+
 public class LinkedListNode<T> {
     public var id: String;
     public var data: T? = nil;
