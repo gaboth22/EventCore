@@ -41,7 +41,7 @@ func callback(eventData: Int) {
 }
 ```
 
-You gotta subscribe the event listener to the event. And event could have many event listeners.
+You gotta subscribe the event listener to the event (An event could have many event listeners).
 ```swift
 intEvent.subscribe(subscriber: intEventListener)
 ```
