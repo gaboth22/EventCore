@@ -51,7 +51,7 @@ When the event publishes
 intEvent.publish(data: 100)
 ```
 
-Then the event lsitener's callback function should be called.
+Then the event listener's callback function should be called.
 
 # Note
 
