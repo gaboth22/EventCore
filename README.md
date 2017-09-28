@@ -16,7 +16,7 @@ func callback(eventData: Int) {
   print(eventData)
 }
 
-intEvent.subscribe(intEventListener)
+intEvent.subscribe(subscriber: intEventListener)
 
 intEvent.publish(data: 100)
 
