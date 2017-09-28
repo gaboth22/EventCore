@@ -23,7 +23,7 @@ intEvent.publish(data: 100)
 // Should print 100
 ```
 
-What's happening here?
+## What's happening here?
 
 Create an event that publishes `Int` data.
 ```swift
@@ -43,7 +43,7 @@ func callback(eventData: Int) {
 
 You gotta subscribe the event listener to the event. And event could have many event listeners.
 ```swift
-intEvent.subscribe(intEventListener)
+intEvent.subscribe(subscriber: intEventListener)
 ```
 
 When the event publishes
@@ -57,5 +57,5 @@ Then the event lsitener's callback function should be called.
 
 You could also unsubscribe event listeners from event at runtime. In the above example it would be.
 ```swift
-intEvet.unsubscribe(intEventLister)
+intEvet.unsubscribe(subscriber: intEventLister)
 ```
