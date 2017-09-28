@@ -57,5 +57,5 @@ Then the event listener's callback function should be called.
 
 You could also unsubscribe event listeners from event at runtime. In the above example it would be.
 ```swift
-intEvet.unsubscribe(subscriber: intEventLister)
+intEvent.unsubscribe(subscriber: intEventLister)
 ```
